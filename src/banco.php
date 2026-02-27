@@ -20,4 +20,5 @@ try {
     $senha);
 } catch (\Throwable $erro) {
     //lançavel serve para qualquer tipo de erro ou exceçao
+    //captura de erro caso a conexao falhe
 }
