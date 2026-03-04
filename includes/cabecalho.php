@@ -22,7 +22,7 @@ require_once __DIR__ . '/../config.php';
 
     <div class="container">
       <a href="<?= BASE_URL ?>/usuarios/listar.php" class="btn btn-sm btn-outline-light">
-        <i class= "bi bi-person-fill"></i>
+        <i class= "bi bi-people-fill"></i>
         Usuários
       </a>
     </div>
