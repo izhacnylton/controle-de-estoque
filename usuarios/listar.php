@@ -5,6 +5,7 @@ require_once BASE_PATH . '/src/usuario_crud.php';
 $usuario = buscarUsuario($conexao);
 
 /*
+...
 echo "<pre>";
 var_dump($usuario);
 echo "</pre>";
