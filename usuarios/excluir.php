@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . '/../config.php';
 
-
 $titulo = "Excluir Usuário |";
 require_once BASE_PATH . '/includes/cabecalho.php';
 ?>
