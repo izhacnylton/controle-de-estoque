@@ -11,9 +11,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' ){
         $sql = "INSERT INTO usuarios (nome, email, senha) VALUES (:nome, :email, :senha)";
         $stmt = $conexao ->prepare($sql);
         $stmt->execute([
-            ':nome' => $nome,
-            ':email' => $email,
-            ':senha' => password_hash($senha, PASSWORD_DEFAULT)
+            ':nome' => $nome, ':email' => $email, ':senha' => password_hash($senha, PASSWORD_DEFAULT)
         ]);
 
         header('Location: listar.php');
