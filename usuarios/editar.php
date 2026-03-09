@@ -52,9 +52,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt = $conexao->prepare($sql);
             
             $params = [
-                'nome' => $nome,
-                'email' => $email,
-                'id' => $id
+                'nome' => $nome, 'email' => $email, 'id' => $id
             ];
 
             if (!empty($senha)) {
